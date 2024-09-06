@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="./components/login.css">
 </head>
 <body>
-    <h1>login</h1>
+    <div class="login-container">
+        <!-- Logo -->
+        <img src="logo.png" alt="Logo" class="login-logo"> <!-- Reemplaza con la ruta de tu logo -->
+
+        <!-- Descripción -->
+        <p class="login-description">Bienvenido, por favor ingresa tus credenciales para acceder.</p>
+
+        <!-- Formulario de login -->
+        <form id="loginForm" class="login-form">
+            <!-- Campo de email -->
+            <input type="email" name="email" placeholder="Email" class="login-input" required>
+            <!-- Campo de contraseña -->
+            <input type="password" name="password" placeholder="Password" class="login-input" required>
+            <!-- Botón de envío -->
+            <input type="submit" value="Login" class="login-submit">
+        </form>
+
+        <!-- Enlace de registro -->
+        <a href="register.html" class="login-register-link">¿No tienes una cuenta? Regístrate aquí</a>
+    </div>
+
+    <!-- Carga del archivo de JavaScript -->
+    <script src="/components/login.js"></script>
 </body>
 </html>

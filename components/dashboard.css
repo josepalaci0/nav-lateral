@@ -1,0 +1,32 @@
+/* Estilos del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Contenedor del dashboard */
+.dashboard-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos para el h1 */
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Estilos para el contenido adicional */
+p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #666;
+}
